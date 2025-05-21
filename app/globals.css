@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+.bg{
+  background-image: url('/tech.png');
+  background-size: contain;
+}
+
+body{
+  color: white;
+  font-family: var(--font-inter), sans-serif;
+}
+
+.font-inter {
+  font-family: var(--font-inter), sans-serif;
+}
+
+.font-bai {
+  font-family: var(--font-baijamjuree), sans-serif;
+}
+
+.font-bahn{
+  font-family: var(--font-bahnschrift), sans-serif;
+}
+
+.font-monrope{
+  font-family: var(--font-monrope), sans-serif;
+}
+
+.font-darker{
+  font-family: var(--font-darker-grotesque), sans-serif;
+}
+
+.cont{
+  width: 1300px;
+}
