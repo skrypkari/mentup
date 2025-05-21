@@ -119,7 +119,9 @@ export default function Home() {
                 <span className="text-[20px] leading-[20px] font-bahn text-white">+7 (937) 533 83-38 </span>
               </div>
             </div>
-            <img src="/map.png" className="max-w-[900px] w-full" />
+            <div className="max-w-[900px] h-auto rounded-[16px] overflow-hidden">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aebda5f43fc08cd10f2b8e272ecbe7b8528d2d50ea085e59445d0a43ac437ede3&amp;source=constructor" width="909" height="560" frameBorder="0"></iframe>
+            </div>
           </div>
         </section>
       </main>
