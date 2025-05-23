@@ -1,4 +1,4 @@
-import Banner from "@/components/Banner";
+import BannerCarousel from "@/components/BannerCarousel";
 import HardwareCard from "@/components/HardwareCard";
 import Logo from "@/components/Logo";
 import LogoBig from "@/components/LogoBig";
@@ -8,15 +8,15 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
-  const hardware = ['LG 144HZ 24”', 'GMB GAMING', 'RTX 2060', 'I5 9400F', 'COUGAR', 'LOGITECH G102', 'OKLICK 970G', 'ZET GAMING']
+  const hardware = ['LG 144HZ 24"', 'GMB GAMING', 'RTX 2060', 'I5 9400F', 'COUGAR', 'LOGITECH G102', 'OKLICK 970G', 'ZET GAMING']
   return (
     <div className="bg bg-[#0F0F15] w-full">
       <header className="bg-[#252129]">
         <Navbar />
       </header>
       <main>
-        <section className="mt-[20px] cont mx-auto">
-          <Banner text1="При покупке кальяна мы дарим полтора часа игры в ПС5 абсолютно бесплатно!" text2="Работаем круглосуточно, без выходных!" text3="Для первых 5 человек вся премиум и стандарт зона бесплатно на всю ночь." imageSrc="/banner.png" buttonText="ЗАБРОНИРОВАТЬ" />
+        <section className="mt-[20px] cont mx-auto px-4 lg:px-0">
+          <BannerCarousel />
         </section>
         <section className="cont mx-auto mt-[20px]">
           <h2 className="font-bahn text-[36px]">НАШЕ ЖЕЛЕЗО</h2>
